@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Ken</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="responsive.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<body>
+    <header>
+        <div class="container">
+            <div class="copy-container">
+                <div class="header-logo">NINJA KEN</div>
+                <span class="fa fa-bars menu-icon"></span>
+                <div class="header-list">
+                    <a href="#">Tentang Saya</a>
+                    <a href="#">Proyek Contoh</a>
+                    <a href="#">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="top-wrapper">
+        <div class="container">
+            <div class="top-header">
+                <h1>NINJA KEN<span>.</span></h1>
+                <h2>MY PORTOFOLIO</h2>
+                <img src="https://raw.githubusercontent.com/dewgithub27/dewprogate.github.io/main/Ninja%20Ken.png">
+            </div>
+            <div class="top-about">
+                <h2>Tentang Saya</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="lesson-wrapper">
+        <h3 class="section-title">Proyek Contoh</h3>
+        <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+        <a class="next" onclick="updateSlide(1)">&#10095;</a>
+        <ul class="contents">
+            <li class="slider-item fade">
+                <img id="openModalButton1" src="https://github.com/dewgithub27/dewprogate.github.io/blob/main/1.png?raw=true">
+                <p>Image 1</p>
+                <div id="myModal1">
+                    <div id="modalContent1">
+                        <span id="closeModalIcon1">&times;</span>
+                        <img src="https://github.com/dewgithub27/dewprogate.github.io/blob/main/1.png?raw=true">
+                        <p>Ini adalah deskripsi image 1.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="slider-item fade">
+                <img id="openModalButton2" src="https://github.com/dewgithub27/dewprogate.github.io/blob/main/2.png?raw=true">
+                <p>Image 2</p>
+                <div id="myModal2">
+                    <div id="modalContent2">
+                        <span id="closeModalIcon2">&times;</span>
+                        <img src="https://github.com/dewgithub27/dewprogate.github.io/blob/main/2.png?raw=true">
+                        <p>Ini adalah deskripsi image 2.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="slider-item fade">
+                <img id="openModalButton3" src="https://github.com/dewgithub27/dewprogate.github.io/blob/main/3.png?raw=true">
+                <p>Image 3</p>
+                <div id="myModal3">
+                    <div id="modalContent3">
+                        <span id="closeModalIcon3">&times;</span>
+                        <img src="https://github.com/dewgithub27/dewprogate.github.io/blob/main/3.png?raw=true">
+                        <p>Ini adalah deskripsi image 3.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="slider-item fade">
+                <img id="openModalButton4" src="https://github.com/dewgithub27/ElementDinamisDOM/blob/main/4.png?raw=true">
+                <p>Image 4</p>
+                <div id="myModal4">
+                    <div id="modalContent4">
+                        <span id="closeModalIcon4">&times;</span>
+                        <img src="https://github.com/dewgithub27/ElementDinamisDOM/blob/main/4.png?raw=true">
+                        <p>Ini adalah deskripsi image 4.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="slider-item fade">
+                <img id="openModalButton5" src="https://github.com/dewgithub27/ElementDinamisDOM/blob/main/5.png?raw=true">
+                <p>Image 5</p>
+                <div id="myModal5">
+                    <div id="modalContent5">
+                        <span id="closeModalIcon5">&times;</span>
+                        <img src="https://github.com/dewgithub27/ElementDinamisDOM/blob/main/5.png?raw=true">
+                        <p>Ini adalah deskripsi image 5.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="contact-form">
+        <h3 class="section-title">Hubungi Saya</h3>
+        <input id="email" value="Email (Diperlukan)">
+        <br>
+        <textarea id="message">Message (Diperlukan)</textarea>
+        <br>
+        <input id="buttonMessage" class="contact-submit" type="button" value="Kirim">
+        <div id="myMessage">
+            <div id="messageContent">
+                <span id="closeMessageIcon">&times;</span>
+                <h2>Hallo teman-teman!</h2>
+                <p>Silahkan masukkan email dan pesan dengan benar.</p>
+            </div>
+        </div>
+        <div class="faq-panel">
+        <h2 class="faq">FAQ</h2>
+        <button class="accordion">Apa itu JavaScript?</button>
+        <div class="panel">
+            <p>JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif.</p>
+        </div>
+        <button class="accordion">Apa itu HTML?</button>
+        <div class="panel">
+            <p>HTML adalah singkatan dari Hypertext Markup Language, yaitu bahasa markup standar untuk membuat dan menyusun halaman dan aplikasi web.</p>
+        </div>
+        <button class="accordion">Apa itu CSS?</button>
+        <div class="panel">
+            <p>CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML.</p>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-logo">NINJA KEN</div>
+        <div class="footer-list">
+            <ul>
+                <li>Tentang Saya</li>
+                <li>Proyek Contoh</li>
+                <li>Hubungi Saya</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

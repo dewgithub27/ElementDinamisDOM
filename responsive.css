@@ -1,0 +1,64 @@
+@media all and (max-width: 670px) {
+    .contents {
+        flex-direction: column;
+    }
+
+    .contents li {
+        margin: 0 auto;
+    }
+
+    .contents img {
+        width: 190px;
+        padding-left: 0px;
+    }
+
+    .contents p {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .top-header h1 {
+        font-size: 50px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .top-about h2 {
+        padding-top: 25px;
+    }
+
+    .top-about p {
+        font-size: 10px;
+    }
+
+    .header-list {
+        display: none;
+    }
+    
+    .copy-container span {
+        display: block;
+    }
+
+    .prev {
+        position: absolute;
+        top: 830px;
+        left: 20%;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: pointer;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next {
+        position: absolute;
+        top: 830px;
+        left: 85%;
+        font-weight: bold;
+        font-size: 25px;
+        cursor: pointer;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+      
+}
+
